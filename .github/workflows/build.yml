@@ -80,6 +80,15 @@ jobs:
         path: ${{ github.workspace }}/libs-aether
         key: libaether-${{ runner.os }}-${{ env.NDK_HOME }}-${{ env.RUST_TOOLCHAIN }}-${{ hashFiles('.git/modules/aether/HEAD') }}-${{ hashFiles('compile-aether.sh') }}
 
+    # rustc 1.98 stops on aether's deeply nested async code ("queries overflow the depth limit"),
+    # as its own message suggests, the crate needs a higher recursion limit; the source sits in a
+    # submodule, so it is patched here before the build.
+    - name: Raise the recursion limit of the Aether core
+      run: |
+        f="${{ github.workspace }}/aether/aether/src/main.rs"
+        grep -q 'recursion_limit' "$f" || sed -i '1i #![recursion_limit = "512"]' "$f"
+        head -3 "$f"
+
     - name: Build libaether
       if: steps.cache-libaether-restore.outputs.cache-hit != 'true'
       run: |
