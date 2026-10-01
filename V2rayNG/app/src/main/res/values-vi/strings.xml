@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">PattNG</string>
+    <string name="app_name" translatable="false">IR V2R</string>
     <string name="app_widget_name">Kết nối ngay</string>
     <string name="app_tile_name">Kết nối ngay</string>
-    <string name="app_tile_first_use">Vui lòng thêm một cấu hình vào PattNG để sử dụng!</string>
+    <string name="app_tile_first_use">Vui lòng thêm một cấu hình vào IR V2R để sử dụng!</string>
     <string name="navigation_drawer_open">Mở Menu ứng dụng</string>
     <string name="navigation_drawer_close">Đóng Menu ứng dụng</string>
     <string name="migration_success">Đã chuyển dữ liệu!</string>
@@ -14,20 +14,20 @@
     <string name="pull_down_to_refresh">Kéo xuống để làm mới!</string>
 
     <!-- Notifications -->
-    <string name="notification_channel_service">Dịch vụ PattNG</string>
+    <string name="notification_channel_service">Dịch vụ IR V2R</string>
     <string name="notification_channel_subscription_updates">Cập nhật gói đăng ký</string>
     <string name="notification_channel_connection_checks">Kiểm tra kết nối</string>
-    <string name="notification_action_stop_v2ray">Ngắt kết nối PattNG</string>
-    <string name="toast_permission_denied">Vui lòng cấp các quyền cần thiết cho PattNG. Bạn có thể đã từ chối quyền truy cập máy ảnh hoặc bộ nhớ.</string>
+    <string name="notification_action_stop_v2ray">Ngắt kết nối IR V2R</string>
+    <string name="toast_permission_denied">Vui lòng cấp các quyền cần thiết cho IR V2R. Bạn có thể đã từ chối quyền truy cập máy ảnh hoặc bộ nhớ.</string>
     <string name="toast_permission_denied_notification">Không thể nhận quyền thông báo</string>
     <string name="notification_action_more">Nhấn để biết thêm…</string>
-    <string name="toast_services_start">Đang khởi động PattNG…</string>
-    <string name="toast_services_stop">Đã dừng PattNG!</string>
-    <string name="toast_services_success">Đã khởi động PattNG!</string>
-    <string name="toast_services_failure">Không thể khởi động PattNG, kiểm tra lại cấu hình!</string>
+    <string name="toast_services_start">Đang khởi động IR V2R…</string>
+    <string name="toast_services_stop">Đã dừng IR V2R!</string>
+    <string name="toast_services_success">Đã khởi động IR V2R!</string>
+    <string name="toast_services_failure">Không thể khởi động IR V2R, kiểm tra lại cấu hình!</string>
 
     <!--ServerActivity-->
-    <string name="title_server">PattNG</string>
+    <string name="title_server">IR V2R</string>
     <string name="menu_item_add_config">Thêm cấu hình</string>
     <string name="menu_item_save_config">Lưu cấu hình</string>
     <string name="menu_item_edit_config">Chỉnh sửa cấu hình</string>
@@ -376,7 +376,7 @@
     <string name="toast_server_not_found_in_group">Không tìm thấy máy chủ đã chọn trong nhóm hiện tại</string>
     <string name="title_locate_selected_config">Tìm cấu hình đã chọn</string>
 
-    <string name="tasker_start_service">Khởi động PattNG</string>
+    <string name="tasker_start_service">Khởi động IR V2R</string>
     <string name="tasker_setting_confirm">Xác nhận</string>
 
     <!-- RoutingSettingActivity -->
