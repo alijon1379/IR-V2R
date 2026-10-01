@@ -1,6 +1,8 @@
-# PattNG
+# IR V2R
 
 v2rayNG fork for Iranians
+
+این پروژه فورکی از [PattNG](https://github.com/patterniha/PattNG) است که خودش بر پایهٔ [v2rayNG](https://github.com/2dust/v2rayNG) ساخته شده است.
 
 **تغییرات v2rayNG:**
 
@@ -11,15 +13,3 @@ v2rayNG fork for Iranians
 **تغییرات Xray-core:**
 
 * امکان اتصال به کانفیگ‌های غیر رمزنگاری شده برای آدرس‌های عمومی در VLESS و TROJAN
-
-## حمایت
-
-اگر کارهای بنده باعث دسترسی شما به اینترنت آزاد شده است ممنون میشم حمایتی هم از اینجانب انجام دهید
-
-`USDT (BEP20)`: 0x76a768B53Ca77B43086946315f0BDF21156bF424
-
-`USDT (TRC20)`: TU5gKvKqcXPn8itp1DouBCwcqGHMemBm8o
-
-`TON (TON)`: UQAc-mZB3y7uxWHKiMmq0ORZEYgycWDWZ4V1k73HsXvTJx-i
-
-@patterniha
